@@ -60,7 +60,6 @@ class Service
             DB::rollBack();
             abort(500);
         }
-
         return $post;
     }
 }
